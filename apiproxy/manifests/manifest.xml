@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-SetAPIKey" version="SHA-512:ebeea66de7649f6732b9da060639d56a4a02a2afbc7093c0aa302ee535fd983141fd86ff10b26dbd7682db62ba1f092f133ba13dfaf092a26f81ecdab7bc402c"/>
+        <VersionInfo resourceName="ExtractCurrencyId" version="SHA-512:2d14a045d729c36454c7bcc369256d8a53dad6e4718ac5b04d1c6a0841874d3a3c24ae12ffd27fd15d0026bcdb141713a59987067c41aba0716ba17639f78636"/>
+        <VersionInfo resourceName="KVM-GetKeyValue" version="SHA-512:1c637c9931b2e72ab84f53645787272666b4a36877b69a333d9cb3ea155344dcc8916fac9cb8d6ff052f8b280acb01d2dadaf17fcaf8dd3d6eb94befd54a16ee"/>
+        <VersionInfo resourceName="VA-validUser" version="SHA-512:8d9ab790dce2b29ff7b9c9d53017b4652ec9c927fce3ce1ffae355f47c50f46744f6f6b1a15f1809eef1a51373e3e48242756493a3ee37559518fd95e62474af"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:da3da07686558a74d2f683ed95c8ec91864e50f12bc39fe6396edf51a842d6209515ea9f5ba36d86fb25b81d07bb69e21d683817230dd9384a21b12a1c9e5514"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://extractCurrency.js" version="SHA-512:7847b2280131ed7b707ad3e556ad7b452d047aa43c1022bd5021abcee2405af8f685239e25413033101abe433bf8a8985c761eb8df2dc1e29f6c3cc96b89e649"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:d09d7bf92041fe37ca5b9380499a5c2d3d0477e0416d23178b3233b9fb416254730d9d45a62615a2f5cda115251422915f7406e9f3f202cc57e6e77a58953925"/>
+    </TargetEndpoints>
+</Manifest>

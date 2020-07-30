@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="Treasury-Currencies">
+    <Basepaths>/v1/treasury-currencies</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1595416313233</CreatedAt>
+    <CreatedBy>praveenkumar.itla@gmail.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>Treasury-Currencies</DisplayName>
+    <LastModifiedAt>1595420315262</LastModifiedAt>
+    <LastModifiedBy>praveenkumar.itla@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:ba5a7ba6aef855a3887418f57fdf2dc9c2ba3c3c476f8209548b58839c7ccc247f35f60420785217c128c9b2fa8964864772464540b36a2fd5f5a9a2c892e770</ManifestVersion>
+    <Policies>
+        <Policy>AM-SetAPIKey</Policy>
+        <Policy>ExtractCurrencyId</Policy>
+        <Policy>KVM-GetKeyValue</Policy>
+        <Policy>VA-validUser</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://extractCurrency.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
